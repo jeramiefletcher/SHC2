@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1408220451973
+Build-Jdk: 1.7.0_09
+Built-By: paul
+Bundle-Description: Paranamer allows runtime access to constructor and m
+ ethod parameter names for Java classes
+Bundle-License: LICENSE.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ParaNamer Core
+Bundle-SymbolicName: com.thoughtworks.paranamer
+Bundle-Version: 2.7.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.thoughtworks.paranamer;version="2.7.0"
+Import-Package: javax.inject;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-2.3.0.201405100607
